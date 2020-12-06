@@ -1,0 +1,22 @@
+{
+  "name": "my-app-29",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project",
+  "main": "index.js",
+  "keywords": [],
+  "author": "lwking <759410559@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t wechat -w",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.6.2",
+    "react": "^17.0.1",
+    "remax": "^2.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
